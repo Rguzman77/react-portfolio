@@ -7,16 +7,14 @@ export const ButtonStyle = styled.button`
   font-weight: 700;
   font-size: 1.2rem;
   color:var(--color-green);
-  height: 4vh;
-  width: 10vw;
+  
+  width: fit-content;
   background-color: var(--color-background-black);
   transition: all 1s ease;
-
-:hover{
+  padding:5px 20px 5px 20px;
+  
+:hover {
     background-color: var(--color-green);
     color: var(--color-black)
 };
-}
-  
-
 `
