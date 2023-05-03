@@ -2,6 +2,7 @@ import { Button } from '../../elements/index'
 import { TitleStyle } from './TitleStyle'
 import { HomeCard } from './HomeCard'
 import { HomeStyle } from './HomeStyle'
+import { Circle1, Circle2, Circle3 } from './Circles'
 import profileimage from '../../assets/profileimage.svg'
 
 
@@ -19,10 +20,15 @@ const Home = () => {
           </TitleStyle>
           <Button label="Contáctame"/>
       </HomeCard>
-      <div className='circle1'><img src={profileimage}/></div>
-      <div className='circle2'></div>
-      <div className='circle3'></div>
-      <div className='circle3'></div>
+         <Circle1>
+            <div><img src={profileimage} alt="Profile Image" /></div>
+        </Circle1>
+        <Circle2>
+            <div></div>
+        </Circle2> 
+        <Circle3>
+            <div></div>
+        </Circle3>
     </HomeStyle>
 
   )
