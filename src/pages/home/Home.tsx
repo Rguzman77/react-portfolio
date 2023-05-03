@@ -16,7 +16,7 @@ const Home = () => {
       <HomeCard>
           <TitleStyle>
             <h1>Hola soy Emmanuel,<br/>Full Stack dev.</h1>
-            <h2>Buscando oportunidades para<br/> desarrollar mis habilidades<br/> conocimientos en tecnología web</h2>
+            <h2>Buscando oportunidades para<br/> desarrollar mis habilidades <br/> y conocimientos en tecnología web</h2>
           </TitleStyle>
           <Button label="Contáctame"/>
       </HomeCard>
