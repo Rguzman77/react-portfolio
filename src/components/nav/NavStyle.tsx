@@ -17,10 +17,11 @@ div:nth-child(2){
         box-shadow: inset var(--color-black);
         color:var(--color-text);
         width: 8vh;
+        height: fit-content;
         text-align: center;
         margin: 0 -.25rem;
         padding: 0 .25rem;
-        font-weight: 600;
+        font-weight: 700;
         transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
         border-radius: 18px;
     };

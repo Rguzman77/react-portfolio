@@ -1,7 +1,7 @@
 import { Button } from '../../elements/index'
 import { TitleStyle } from './TitleStyle'
+import { Link } from 'react-router-dom'
 import { HomeCard } from './HomeCard'
-import { HomeStyle } from './HomeStyle'
 import { Circle1, Circle2, Circle3 } from './Circles'
 import profileimage from '../../assets/profileimage.svg'
 
@@ -12,13 +12,13 @@ import profileimage from '../../assets/profileimage.svg'
 const Home = () => {
   
   return (   
-    <HomeStyle>
+    <>
       <HomeCard>
           <TitleStyle>
             <h1>Hola soy Emmanuel,<br/>Full Stack dev.</h1>
             <h2>Buscando oportunidades para<br/> desarrollar mis habilidades <br/> y conocimientos en tecnología web</h2>
           </TitleStyle>
-          <Button label="Contáctame"/>
+          <Link to="/contact"><Button label="Contáctame"/></Link>
       </HomeCard>
          <Circle1>
             <div><img src={profileimage} alt="Profile Image" /></div>
@@ -29,7 +29,7 @@ const Home = () => {
         <Circle3>
             <div></div>
         </Circle3>
-    </HomeStyle>
+    </>
 
   )
 }

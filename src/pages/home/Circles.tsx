@@ -6,7 +6,7 @@ export const Circle1 = styled.div`
     width: 100px;
     height: 100px;
     position:absolute;
-    left:2em;
+    left:80vw;
     bottom:1em;
     z-index: -1;
     img{
@@ -14,12 +14,18 @@ export const Circle1 = styled.div`
         margin:0 auto;
         width: 100%;
         height: 100%;
+        display:none;
+        
     }
 @media screen and (min-width: 768px) {
-    width: 600px;
-    height: 600px;
-    left:-4em;
-    bottom:-5em;
+    width: 300px;
+    height: 300px;
+    left:60vw;
+    bottom:19vh;
+    img{
+        display:block;
+    }
+    
     
 }
 
@@ -34,10 +40,11 @@ export const Circle2 = styled.div`
     top:8em;
     z-index: -1;
     @media screen and (min-width: 768px) {
-    width: 500px;
-    height: 500px;
-    left:35em;
-    top:-5em;
+    width: 170px;
+    height: 170px;
+    left:5em;
+    top:1em;
+   
 }
 `
 
@@ -52,9 +59,9 @@ export const Circle3 = styled.div`
     bottom: -12em;
     z-index: -1;
     @media screen and (min-width: 768px) {
-    width: 800px;
-    height: 800px;
-    left:60em;
-    bottom:-30em;
+    width: 300px;
+    height: 300px;
+    left:0em;
+    bottom:0em;
 }
 `

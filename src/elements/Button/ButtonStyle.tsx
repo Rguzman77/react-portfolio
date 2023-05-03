@@ -9,7 +9,7 @@ export const ButtonStyle = styled.button`
   color:var(--color-green);
   
   width: fit-content;
-  background-color: var(--color-background-black);
+  background-color: transparent;
   transition: all 1s ease;
   padding:5px 20px 5px 20px;
   
