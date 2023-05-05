@@ -16,7 +16,7 @@ div:nth-child(2){
     a {
         box-shadow: inset var(--color-black);
         color:var(--color-text);
-        width: 8vh;
+        width: fit-content;
         height: fit-content;
         text-align: center;
         margin: 0 -.25rem;
@@ -38,5 +38,10 @@ img{
     mix-blend-mode:difference; 
 };
 
+@media screen and (min-width: 768px) {
+    a{
+        margin-right:10px;
+    }
+   }
 
 `
