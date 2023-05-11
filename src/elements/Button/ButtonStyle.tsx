@@ -19,5 +19,6 @@ export const ButtonStyle = styled.button<ButtonStyleProps>`
   :hover {
     background-color: ${({ color }) => color};
     color: var(--color-black);
+    cursor: pointer;
   }
 `;

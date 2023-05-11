@@ -1,10 +1,18 @@
-import React from 'react'
+import { ProjectCardStyle } from './ProjectCardStyle'
+import background from '../../assets/enlacebackground.png'
+import logo from '../../assets/enlacelogo.svg'
 
-type Props = {}
 
-const projects = (props: Props) => {
+const projects = () => {
   return (
-    <div>projects</div>
+    <>
+    <ProjectCardStyle>
+      <article>
+        <img src={background} alt="Enlace Urbano Background" />
+        <img src={logo} alt="Enlace Urbano Logo" />
+      </article>
+    </ProjectCardStyle>
+    </>
   )
 }
 

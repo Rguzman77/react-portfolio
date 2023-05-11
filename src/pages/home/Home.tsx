@@ -3,7 +3,7 @@ import { Button } from '../../elements/index'
 import { TitleStyle } from './TitleStyle'
 import { HomeCard } from './HomeCard'
 import cv from '../../assets/cv/cv.pdf'
-import { Circle1, Circle2, Circle3 } from './Circles'
+import { Circle1, Circle2, Circle3 } from '../../elements/circles/Circles'
 import profileimage from '../../assets/profileimage.svg'
 
 
@@ -30,13 +30,13 @@ const Home = () => {
           </TitleStyle>
       </HomeCard>
          <Circle1>
-            <div><img src={profileimage} alt="Profile Image" /></div>
+            <div className='circle'><img src={profileimage} alt="Profile Image" /></div>
         </Circle1>
         <Circle2>
-            <div></div>
+            <div className='circle'></div>
         </Circle2> 
         <Circle3>
-            <div></div>
+            <div className='circle'></div>
         </Circle3>
     </>
 
