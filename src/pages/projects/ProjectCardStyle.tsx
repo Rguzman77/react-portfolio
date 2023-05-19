@@ -5,6 +5,7 @@ export const ProjectCardStyle=styled.article`
     width: 30vw;
     margin: 0 auto;
     margin-top:20vh;
+    
 
 
 article img:first-child{
@@ -22,7 +23,7 @@ article img:last-child{
     right: 0;
     margin: auto;
     transform: translateY(25%);
-    transition: .3s ease;
+    transition: .3s ease-in-out;
     opacity: 0;
 }
 
@@ -33,7 +34,7 @@ article:hover{
     translateY(-5%)
     translateZ(0);
     cursor: pointer;
-    transition: .3s ease;
+    transition: .3s ease-in-out;
 }
 
 article::before{
@@ -47,8 +48,7 @@ article::before{
         to bottom,
         transparent 10%,rgba(0,0,0,0.5)50%,rgba(0,0,0)95%);
         opacity: 0;
-        transition: all .3s ease;
-        ;
+        transition: all .3s ease-in-out;
     }
 
 article:hover::before{
@@ -58,5 +58,6 @@ article:hover::before{
 article:hover img:last-child{
     opacity: 1;
     transform: translateY(10%);
+    transition:all ease-in-out;
 }
 `
