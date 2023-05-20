@@ -33,9 +33,9 @@ div:nth-child(2){
 };
 
 img{
-    border-radius: 20%;
+    
     height: 12vh;
-    mix-blend-mode:difference; 
+    mix-blend-mode:lighten; 
 };
 
 @media screen and (min-width: 768px) {
