@@ -60,4 +60,9 @@ article:hover img:last-child{
     transform: translateY(10%);
     transition:all ease-in-out;
 }
+p{
+    margin-top:30px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
 `
