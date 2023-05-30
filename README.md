@@ -1,4 +1,4 @@
-# Project Title
+# Portfolio
 
 This is a Vite React project that showcases my portfolio.
 
@@ -11,6 +11,7 @@ The project aims to provide an interactive and visually appealing portfolio to s
 - [Vite](https://vitejs.dev/) - Fast development server and build tool for modern web development.
 - [React](https://reactjs.org/) - JavaScript library for building user interfaces.
 - [React Router](https://reactrouter.com/) - Declarative routing for React applications.
+- [Styled components](https://styled-components.com/)- Write CSS in TS while building custom components in React
 
 ## Getting Started
 
