@@ -1,0 +1,8 @@
+export{ default as enlaceBackground} from './enlacebackground.png'
+export{ default as } from './enlacelogo.svg'
+export{ default as } from './enlacebackground.png'
+export{ default as } from './enlacelogo.svg'
+export{ default as } from './enlacebackground.png'
+export{ default as } from './enlacelogo.svg'
+export{ default as } from './enlacebackground.png'
+export{ default as } from './enlacelogo.svg'
