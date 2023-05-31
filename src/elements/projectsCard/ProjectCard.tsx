@@ -3,7 +3,6 @@ import { ProjectCardStyle } from "./ProjectCardStyle";
 
 
 interface ProjectProps {
-    label: string;
     background: string;
     logo: string;
     description: string;
