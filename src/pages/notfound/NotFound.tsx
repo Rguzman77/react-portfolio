@@ -1,10 +1,10 @@
 import React from 'react'
-
+import { NotFoundStyle } from './NotFoundStyle'
 type Props = {}
 
 const NotFound = (props: Props) => {
   return (
-    <h1>NOT FOUND</h1>
+    <NotFoundStyle><h1>NOT FOUND</h1></NotFoundStyle>
   )
 }
 

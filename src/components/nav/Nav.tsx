@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { NavStyle } from './NavStyle'
-import  logo  from '../../assets/logo.svg'
+import  logo  from '../../assets/siteLogo.svg'
 
 
 const Nav = () => {
