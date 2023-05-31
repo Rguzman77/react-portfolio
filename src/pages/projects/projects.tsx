@@ -4,10 +4,9 @@ import logo from '../../assets/enlacelogo.svg'
 import { Link } from 'react-router-dom'
 
 
-
 const projects = () => {
   return (
-    <div Style='display: flex; flex-direction:row;'>
+    <div style='display: flex; flex-direction:row;'>
       <ProjectCardStyle>
       <Link to='https://github.com/Enlace-Urbano'> 
         <article>
