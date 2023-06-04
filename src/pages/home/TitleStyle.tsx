@@ -6,6 +6,7 @@ flex-direction: column;
 margin-left: 4vw;
 align-content: baseline;
 margin-top: 15vh;
+color:var(--color-text);
 
 h1{
     font-family: 'Poppins', sans-serif;
