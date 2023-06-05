@@ -1,8 +1,7 @@
-import React from 'react'
 import { NotFoundStyle } from './NotFoundStyle'
-type Props = {}
 
-const NotFound = (props: Props) => {
+
+const NotFound = () => {
   return (
     <NotFoundStyle><h1>NOT FOUND</h1></NotFoundStyle>
   )
