@@ -9,7 +9,7 @@
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "test": "vitest --ui"
-  },
+    },
   "dependencies": {
     "@splidejs/splide": "^4.1.4",
     "icons": "^1.0.0",
