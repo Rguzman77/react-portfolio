@@ -1,4 +1,5 @@
 import { AboutStyle } from "./AboutStyle"
+import { lazy, Suspense } from "react"
 
 const About = () => {
   return (
@@ -16,5 +17,6 @@ const About = () => {
     </AboutStyle>
   )
 }
+
 
 export default About

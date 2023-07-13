@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SkillsContainer = styled.a`
-  margin-top:10%;
+  margin-top:12vh;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 1rem;
